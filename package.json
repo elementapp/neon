@@ -1,0 +1,22 @@
+{
+  "name": "neon",
+  "version": "1.0.0",
+  "main": "client/index.jsx",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.0.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.1.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development"
+  }
+}
