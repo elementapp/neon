@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='react-redux' -> 'modulesStub'
+module.name_mapper='redux\(-thunk\)?' -> 'modulesStub'
+
+module.system.node.resolve_dirname=client
+
+[strict]
