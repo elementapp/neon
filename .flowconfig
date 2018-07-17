@@ -8,8 +8,17 @@
 [lints]
 
 [options]
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.css
+module.file_ext=.scss
+
+module.name_mapper='classnames' -> 'modulesStub'
+module.name_mapper='prop-types' -> 'modulesStub'
 module.name_mapper='react-redux' -> 'modulesStub'
 module.name_mapper='redux\(-thunk\)?' -> 'modulesStub'
+module.name_mapper.extension='css' -> 'empty/object'
+module.name_mapper.extension='scss' -> 'empty/object'
 
 module.system.node.resolve_dirname=client
 

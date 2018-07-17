@@ -1,1 +1,3 @@
-{ "presets": ["react", "flow"] }
+{
+  "presets": ["react", "flow", "stage-2"],
+}

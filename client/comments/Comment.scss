@@ -1,0 +1,23 @@
+.root {
+  background-color: #f7f7f7;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.metadata {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.comment {
+  display: flex;
+}
+
+.timestamp {
+  color: blue;
+  margin-right: 8px;
+}

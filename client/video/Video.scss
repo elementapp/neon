@@ -1,0 +1,19 @@
+.video {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  align-items: center;
+  border-bottom: 1px solid #add8e6;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 12px;
+  width: 100%;
+}
+
+.title {
+  margin-left: 36px;
+}

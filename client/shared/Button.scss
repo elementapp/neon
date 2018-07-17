@@ -1,0 +1,37 @@
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Avenir Next;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  outline: none;
+  padding: 8px 14px;
+  transition: background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+
+.button:active {
+  border-style: solid;
+}
+
+.button:hover:enabled {
+  background-color: #efefef;
+  box-shadow: 0 8px 16px rgba(0, 25, 50, 0.1);
+}
+
+.primary {
+  background-color: #4169e1;
+  color: white;
+}
+
+.primary:hover:enabled {
+  background-color: #008000;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.loading {
+  cursor: progress;
+}
